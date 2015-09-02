@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyBox</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="server">Ajouter un Serveur FTP</string>
+    <string name="bt_import">Importer un nouveau fichier</string>
+    <string name="bt_server">Enregistrer le serveur</string>
+    <string name="name_server">Nom du serveur</string>
+    <string name="host_name">Nom de l\'hote</string>
+    <string name="user_name">Nom d\'utilisateur</string>
+    <string name="pass_name">Mot de passe</string>
+    <string name="port_connect">Port de connexion</string>
+    <string name="home1">Accueil</string>
+    <string name="protect">Protéger ou pas les serveurs</string>
+    <string name="refresh">Actualiser</string>
+    <string name="del">Supprimer les éléments</string>
+     
+     <string name="home">Back to home</string>
+    <string name="update">Save settings</string>
+    <string name="secu">SECURITY</string>
+    <string name="secu1">Enable security</string>
+    <string name="secu2">Password for access</string>
+    <string name="sync">SHARING ON CLOUD</string>
+    <string name="sync1">Enable MyBox Cloud</string>
+    <string name="sync2">MyBox account</string>
+    <string name="sha">SHARING LOCAL FILES</string>
+    <string name="sha1">Enable sharing files</string>
+    <string name="set_ok">Settings saved</string>
+    <string name="sel_on">Select Items</string>
+    <string name="sel_off">Cancel selection</string>
+    <string name="sel_del">Delete selection</string>
+    <string name="sel_sha">Sharing or not selection</string>
+    <string name="sel_pro">Protect or not selection</string>
+    <string name="sel_sav">Save selection</string>
+    <string name="op_cance">Operation canceled</string>
+    <string name="op_vide">Please, choice a item</string>
+    <string name="op_home">Please, press item to selct it</string>
+    <string name="op_ch">Confirm your choice !</string>
+    <string name="op_dele">Do you really delete this elements ?</string>
+    <string name="op_sele">Selected</string>
+    <string name="op_ok">Successful operation !</string>
+    <string name="op_1">OK</string>
+    <string name="op_2">CANCEL</string>
+    <string name="pass_non">Incorrect password</string>
+    <string name="open_secu">Locked Access</string>
+    <string name="pres">MoneyBook is at application developed by Christian Baurel SUMBANG, as stated in the description, it is designed to help you better manage your spending. \n\r \n\r You can contact me at this address: tsumbang@outlook.com</string>
+     <string name="pres1">Press item to open hers options, press strongly for select it.</string>
+    
+    
+</resources>

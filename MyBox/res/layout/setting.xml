@@ -1,0 +1,146 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1.0"
+    tools:context=".MainActivity" >
+
+  
+
+        <ScrollView
+            android:id="@+id/listView1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.9"
+            android:background="@color/blanc"
+             >
+            
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+              <TextView
+                  android:id="@+id/textView2"
+                  android:layout_width="fill_parent"
+                  android:padding="10dp"
+                  android:textSize="12pt"
+                  android:layout_height="wrap_content"
+                  android:text="@string/secu"
+                  />
+
+              <CheckBox
+                  android:id="@+id/checkBox1"
+                  android:layout_width="fill_parent"
+                  android:padding="10dp"
+                  android:textSize="8pt"
+                  android:layout_height="wrap_content"
+                  android:text="@string/secu1"
+                   />
+
+              <TextView
+                  android:id="@+id/textView3"
+                  android:layout_width="fill_parent"
+                  android:padding="10dp"
+                  android:textSize="8pt"
+                  android:layout_height="wrap_content"
+                  android:text="@string/secu2"
+                   />
+              
+              <EditText
+                  android:id="@+id/editText1"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:ems="10"
+                  android:inputType="textPassword"
+                  android:padding="10dp"
+                  android:textSize="8pt" >
+
+                  <requestFocus />
+              </EditText>
+
+              
+              <TextView
+                  android:id="@+id/textView4"
+                  android:layout_width="fill_parent"
+                  android:padding="10dp"
+                  android:layout_marginTop="15dp"
+                  android:textSize="12pt"
+                  android:layout_height="wrap_content"
+                  android:text="@string/sync"
+                  />
+              
+                
+        <CheckBox
+                  android:id="@+id/checkBox2"
+                  android:layout_width="fill_parent"
+                  android:padding="10dp"
+                  android:textSize="8pt"
+                  android:layout_height="wrap_content"
+                  android:text="@string/sync1"
+                   />
+        
+         <TextView
+                  android:id="@+id/textView5"
+                  android:layout_width="fill_parent"
+                  android:padding="10dp"
+                  android:textSize="8pt"
+                  android:layout_height="wrap_content"
+                  android:text="@string/sync2"
+                   />
+              
+              <EditText
+                  android:id="@+id/editText2"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:ems="10"
+                  android:inputType="text"
+                  android:padding="10dp"
+                  android:textSize="8pt" >
+
+                  <requestFocus />
+              </EditText>
+              
+         
+              <TextView
+                  android:id="@+id/textView6"
+                  android:layout_width="fill_parent"
+                  android:padding="10dp"
+                  android:layout_marginTop="15dp"
+                  android:textSize="12pt"
+                  android:layout_height="wrap_content"
+                  android:text="@string/sha"
+                  />
+              
+                      
+        <CheckBox
+                  android:id="@+id/checkBox3"
+                  android:layout_width="fill_parent"
+                  android:padding="10dp"
+                  android:textSize="8pt"
+                  android:layout_height="wrap_content"
+                  android:text="@string/sha1"
+                   />
+              
+        </LinearLayout>
+            
+        </ScrollView>
+
+     
+
+         <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:text="@string/update"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:background="@color/bleu"
+         />
+       
+
+</LinearLayout>
